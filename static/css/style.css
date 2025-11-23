@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background: #FDF7F7;
+}
+
+/* 顶部标题区 */
+.top-section {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FF8FB1;
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #C8B8C8;
+}
+
+/* 顶部按钮 */
+.top-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.cute-btn {
+    background: #FFE5EE;
+    padding: 10px 18px;
+    border-radius: 30px;
+    color: #444;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(255, 140, 165, 0.25);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: 0.2s ease;
+}
+
+.cute-btn:hover {
+    background: #FFD8E9;
+    box-shadow: 0 4px 12px rgba(255, 140, 165, 0.35);
+}
+
+/* 卡片网格 */
+.card-grid {
+    max-width: 1100px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 28px;
+    padding: 0 20px;
+}
+
+/* 卡片通用样式 */
+.riddle-card {
+    padding: 24px;
+    border-radius: 26px;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.riddle-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+.badge {
+    background: rgba(0,0,0,0.15);
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 14px 0 10px;
+}
+
+.card-desc {
+    font-size: 14px;
+    color: #555;
+}
+
+.play-row {
+    margin-top: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+/* 绿色卡片 */
+.card-green {
+    background: #CCFFF1;
+}
+
+/* 黄色卡片 */
+.card-yellow {
+    background: #FFF4C8;
+}
