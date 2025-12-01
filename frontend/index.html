@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Turtle Soup</title>
+    <link rel="stylesheet" href="/frontend/assets/css/style.css">
+
+    <!-- 可爱圆润字体：Quicksand -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- 为了用到图标 -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <header class="top-section">
+        <h1 class="title">Turtle Soup</h1>
+        <p class="subtitle">Lateral Thinking Mystery Game</p>
+
+        <div class="top-buttons">
+            <div class="cute-btn"><i data-lucide="trophy"></i> Leaderboard</div>
+            <div class="cute-btn"><i data-lucide="settings"></i> Settings</div>
+        </div>
+    </header>
+
+    <!-- 卡片网格 -->
+    <div class="card-grid">
+
+        <!-- 卡片 1 -->
+        <a href="/mode/1" class="riddle-card card-green">
+            <span class="badge">MEDIUM</span>
+            <h2 class="card-title">The Sea Turtle Soup</h2>
+            <p class="card-desc">
+                A man walks into a restaurant, orders sea turtle soup... Why?
+            </p>
+            <div class="play-row">Play Now →</div>
+        </a>
+
+        <!-- 卡片 2 -->
+        <a href="/mode/2" class="riddle-card card-yellow">
+            <span class="badge">EASY</span>
+            <h2 class="card-title">The Broken Wood</h2>
+            <p class="card-desc">
+                A man lies dead in a field. Next to him is a package. Why?
+            </p>
+            <div class="play-row">Play Now →</div>
+        </a>
+
+    </div>
+
+    <script>
+      lucide.createIcons();
+    </script>
+</body>
+</html>
